@@ -1,0 +1,3 @@
+display_name: WeChat Draft Publisher
+short_description: Draft, polish, and sync WeChat Official Account articles
+default_prompt: Use this skill to turn source docs or Markdown into polished WeChat Official Account drafts, resolve local image assets, validate the article before upload, and sync the final content to the WeChat draft box without publishing.
