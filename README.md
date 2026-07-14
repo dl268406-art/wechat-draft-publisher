@@ -20,6 +20,7 @@
 ```text
 .
 ├── SKILL.md
+├── RUNBOOK.md
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -29,8 +30,19 @@
 ### 文件说明
 
 - `SKILL.md`：技能主说明，定义触发场景、默认流程、规则与注意事项
+- `RUNBOOK.md`：给新窗口 Agent 使用的完整操作手册
 - `agents/openai.yaml`：技能元数据，便于在工具侧展示与发现
 - `references/wechat_draft_pipeline.md`：流程参考与验收清单
+
+## 给新窗口 Agent 的入口
+
+如果要让另一个 Codex 窗口接手公众号草稿同步，直接让它先阅读：
+
+```text
+/Users/macos/Documents/Codex/2026-05-08/chrome-plugin-chrome-openai-bundled-chrome/wechat-draft-publisher/RUNBOOK.md
+```
+
+然后按手册继续读取 `SKILL.md`、`references/wechat_draft_pipeline.md` 和本机的 `$md2wechat` Skill。
 
 ## 核心流程（简版）
 
